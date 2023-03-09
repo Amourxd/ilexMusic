@@ -51,7 +51,7 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": false,
-            "value": "@OP_ARNAV_SINGH"
+            "value": "OP_ARNAV_SINGH"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
