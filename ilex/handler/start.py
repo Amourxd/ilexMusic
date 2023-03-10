@@ -36,10 +36,10 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 start_keyboard = InlineKeyboardMarkup( [[
-      InlineKeyboardButton("𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🚩", url=f"https://telegra.ph/𓆩-ɪᴛsɴɪʀᴊᴏɴ𓆪-02-27"), 
+      InlineKeyboardButton("🍓 sᴜᴘᴘᴏʀᴛ 🍓", url=f"https://t.me/ilexupdates/85"), 
       ],[
-      InlineKeyboardButton("🔱𝗚𝗿𝗼𝘂𝗽", url=f"t.me/{GROUP_SUPPORT}"), 
-      InlineKeyboardButton("𝗨𝗽𝗱𝗮𝘁𝗲𝘀 🔱", url=f"t.me/{UPDATES_CHANNEL}"), 
+      InlineKeyboardButton("🧁 ɢʀᴏᴜᴘ 🧁", url=f"t.me/{GROUP_SUPPORT}"), 
+      InlineKeyboardButton("💌 ᴜᴘᴅᴀᴛᴇs 💌", url=f"t.me/{UPDATES_CHANNEL}"), 
       ],[
       InlineKeyboardButton("✚ 𝗔𝗗𝗗 𝗠𝗘 𝗕𝗔𝗕𝗬 ✚", url=f"t.me/{BOT_USERNAME}?startgroup=True")
       ]]
@@ -49,7 +49,10 @@ start_keyboard = InlineKeyboardMarkup( [[
 @Client.on_message(filters.command("start") & filters.private)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        text=f"**𝐇𝐞𝐥𝐥𝐨 {message.from_user.mention()}\n\n🥀𝐓𝐡𝐢𝐬 {BOT_NAME}𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 🎶 𝐁𝐨𝐭 \n𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 \n𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜 😎🤟 \n⭐𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [𝐞𝐒𝐩𝐨𝐫𝐭𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/NixaWorld)💞..**", 
+        text=f"**𝐇𝐞𝐥𝐥𝐨 {message.from_user.mention()}\n\n🛸𝐓𝐡𝐢𝐬 {BOT_NAME}ɪs 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌ᴜsɪᴄ 🎶 𝐁𝐨𝐭 \n𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 ʜᴇʀᴏᴋᴜ 💫sᴇʀᴠᴇʀ ♻️ \nᴛʜɪs ɪs ᴀʀɴᴀᴠ ダ ᴍᴜsɪᴄ​ 🥀
+ ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+
+ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ \n⭐𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [ɪʟᴇxᴍᴜsɪᴄ](https://t.me/arnav_ilexsupport)💖..**", 
         disable_web_page_preview=True,
         reply_markup=start_keyboard, 
     ) 
