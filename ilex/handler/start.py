@@ -36,7 +36,7 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 start_keyboard = InlineKeyboardMarkup( [[
-      InlineKeyboardButton("𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🛸", url=f"https://t.me/ilexupdates/85"), 
+      InlineKeyboardButton("𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🛸", url=f"https://t.me/ilexupdates"), 
       ],[
       InlineKeyboardButton("🍄𝗚𝗿𝗼𝘂𝗽", url=f"t.me/{GROUP_SUPPORT}"), 
       InlineKeyboardButton("𝗨𝗽𝗱𝗮𝘁𝗲𝘀 🇮🇳", url=f"t.me/{UPDATES_CHANNEL}"), 
